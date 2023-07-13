@@ -8,6 +8,7 @@ import Card from "./card/Card";
 const OurService = () => {
   return (
     <div className="h-[50vh] container mx-auto">
+      <h1 className="text-5xl text-center my-8 font-bold">Our Service</h1>
       <div className=" grid grid-cols-3 gap-5">
         <Card
           icon={
