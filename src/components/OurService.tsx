@@ -10,15 +10,21 @@ const OurService = () => {
     <div className="h-[50vh] container mx-auto">
       <div className=" grid grid-cols-3 gap-5">
         <Card
-          icon={<BagCheck className="h-16 w-16 text-red-500" />}
+          icon={
+            <BagCheck className="h-16 w-16 text-red-500 group-hover:text-orange-500 " />
+          }
           title="Qualtiy Food"
         />
         <Card
-          icon={<Flash className="h-16 w-16 text-red-500" />}
+          icon={
+            <Flash className="h-16 w-16 text-red-500 group-hover:text-orange-500 " />
+          }
           title="Fast Delivery"
         />
         <Card
-          icon={<NavigateCircle className="h-16 w-16 text-red-500" />}
+          icon={
+            <NavigateCircle className="h-16 w-16 text-red-500 group-hover:text-orange-500 " />
+          }
           title="Safe Delivery"
         />
       </div>
