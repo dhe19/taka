@@ -4,10 +4,24 @@
 
 @layer components {
   body {
-    @apply text-slate-600;
+    @apply text-slate-600 bg-gradient-to-r from-slate-100 via-white to-slate-100;
   }
 
   .nav-item {
     @apply text-sm  font-medium cursor-pointer transition-all duration-300 hover:text-red-600;
+  }
+
+  .dishOne {
+    @apply h-52 absolute -z-10 left-[-7vw] hidden lg:inline-block;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  }
+
+  .dishTwo {
+    @apply h-64 absolute -z-10 bottom-[-12vh] left-[-4vw] hidden lg:inline-block;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  }
+  .dishThree {
+    @apply h-44 absolute -z-10 top-[0vh] left-[40vw] hidden lg:inline-block;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   }
 }
