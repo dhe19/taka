@@ -11,7 +11,7 @@ const Hero = () => {
       <img src={dishTwo} alt="dish" className="dishTwo" />
       <img src={dishThree} alt="dish" className="dishThree" />
       <div className="container mx-auto grid grid-cols-1 gap-5 lg:grid-cols-10 items-center py-[10vh]">
-        <div className="col-span-1 md:col-span-6 px-4  lg:bg-gray-400 lg:rounded-md lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-sm lg:bg-opacity-10 lg:border lg:border-gray-100">
+        <div className="col-span-1 md:col-span-6 px-4  lg:bg-gray-400 lg:rounded-md lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-sm lg:bg-opacity-10 lg:border lg:border-gray-100 lg:shadow-lg">
           <h1 className="text-4xl text-center lg:text-start md:text-[50px] md:leading-[55px] my-5 uppercase font-bold">
             The Number <span className="text-red-600">#One</span> <br />
             Choise your <br />
