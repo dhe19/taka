@@ -26,7 +26,7 @@ const OurService = () => {
           icon={
             <NavigateCircle className="h-16 w-16 text-red-500 group-hover:text-orange-500 " />
           }
-          title="Safe Delivery"
+          title="Real-time Tracking"
         />
       </div>
     </div>
