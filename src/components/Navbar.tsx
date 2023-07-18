@@ -3,7 +3,7 @@ const Navbar = () => {
   return (
     <div className="container px-2 mx-auto flex justify-between items-center py-5 ">
       <h1 className="text-xl font-semibold">FOODAKA</h1>
-      <ul className="flex gap-4 hidden lg:flex">
+      <ul className=" gap-4 hidden lg:flex">
         <li className=" nav-item">Home</li>
         <li className=" nav-item">Menu</li>
         <li className=" nav-item">About us</li>
