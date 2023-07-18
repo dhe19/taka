@@ -24,4 +24,8 @@
     @apply h-44 absolute -z-10 top-[0vh] left-[40vw] hidden lg:inline-block;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
   }
+
+  .proContainer {
+    @apply w-[100%] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] mx-auto;
+  }
 }
