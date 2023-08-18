@@ -5,9 +5,9 @@ const Navbar = () => {
       <h1 className="text-xl font-semibold">FOODAKA</h1>
       <ul className=" gap-4 hidden lg:flex">
         <li className=" nav-item">Home</li>
-        <li className=" nav-item">Menu</li>
-        <li className=" nav-item">About us</li>
-        <li className=" nav-item">Contact us</li>
+        <li className=" nav-item">Menú</li>
+        <li className=" nav-item">Sobre Nosotros</li>
+        <li className=" nav-item">Contactanos</li>
       </ul>
       <div className="flex gap-4 items-center">
         <Search className="h-6 w-6 cursor-pointer hover:text-red-600 transition-all duration-300" />

@@ -10,12 +10,11 @@ const Hero = () => {
       <img src={dishOne} alt="dish" className="dishOne" />
       <img src={dishTwo} alt="dish" className="dishTwo" />
       <img src={dishThree} alt="dish" className="dishThree" />
-      <div className="proContainer grid grid-cols-1 gap-5 lg:grid-cols-10 items-center py-[10vh]">
+      <div className="container mx-auto grid grid-cols-1 gap-5 lg:grid-cols-10 items-center py-[10vh]">
         <div className="col-span-1 md:col-span-6 px-4  lg:bg-gray-400 lg:rounded-md lg:bg-clip-padding lg:backdrop-filter lg:backdrop-blur-sm lg:bg-opacity-10 lg:border lg:border-gray-100 lg:shadow-lg">
           <h1 className="text-4xl text-center lg:text-start md:text-[50px] md:leading-[55px] my-5 uppercase font-bold">
-            The Number <span className="text-red-600">#One</span> <br />
-            Choise your <br />
-            <span className="text-red-600">Hunger Solution</span>
+            Comida De <span className="text-red-600">#Calidad</span> <br />A Un{" "}
+            <span className="text-red-600 mr-5">Precio Justo</span>
           </h1>
           <p className="font-semibold text-center lg:text-start lg:w-5/6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
@@ -28,14 +27,14 @@ const Hero = () => {
                 href="#"
                 className="font-medium px-12 py-4 bg-red-600 rounded-3xl  text-white "
               >
-                Order Now
+                Ordena Ahora
               </a>
             </div>
 
             <div className="my-3">
               <a href="#">
                 <PlayCircle className="h-14 w-14 text-red-600" />
-                <span> How to order</span>
+                <span> Ver Promocion</span>
               </a>
             </div>
           </div>
